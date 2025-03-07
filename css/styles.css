@@ -1,0 +1,233 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Navbar*/
+a.nav-color:hover {
+    color:rgb(124, 208, 225);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+/*home Main intro*/
+.intro {
+    background-image: url("https://www.cnps.org/wp-content/uploads/2024/12/Roses-Manzanita-overlooking-Bixby-Bridge-Mike-Heine-scaled.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-position: 50% 50%;
+    margin: 0px;
+    padding: 0px;
+}
+/*home Main intro*/
+.overlay {
+    position: absolute;
+    height: 100vh;
+    width:  100vw;
+    top: 0;
+    left:0;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.overlay-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 50vh;
+    width:  65vw;
+    top: 180px;
+    left: 50px;
+    background: rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+}
+
+.overlay-content h1 {
+    font-size: 5.9vw;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.overlay-content h2 {
+    font-size: 1.6vw;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.img-description {
+    position: absolute;
+    font-size: 1vw;
+    right: 50px;
+    bottom: 30px;
+    visibility: hidden;
+}
+
+.overlay:hover .img-description {
+    visibility: visible;
+}
+
+hr {
+    color:rgb(243, 143, 3);
+    width: 20px;
+    height: 5px;
+    border-width: 0;
+    background-color: rgb(243, 87, 3);
+}
+
+/*Home page card section*/
+.card {
+    border-radius: 0;
+}
+
+.cardImg{
+    position: relative;
+}
+
+.card-description {
+    position: absolute;
+    font-size: 1vw;
+    right: 10px;
+    bottom: 1px;
+    visibility: hidden;
+}
+.cardImg:hover .card-description {
+    visibility: visible;
+}
+
+.card-title:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(243, 179, 3);
+}
+.why {
+    background-color: rgb(233, 242, 247);
+}
+.blueText {
+    color: rgb(58, 169, 217);
+}
+.circle-card {
+    background-color: rgb(233, 242, 247);
+    text-decoration: none;
+}
+
+/*Footer*/
+.header-top {
+    background-color: rgb(146, 202, 216);
+    color: white;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: white;
+}
+/*sign-up form*/
+.sign-up {
+    background-image: url("https://www.cnps.org/wp-content/uploads/2024/12/CEQA-800x533-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*news page*/
+.intro-news {
+    background-image: url("https://www.cnps.org/wp-content/uploads/2018/02/carrizo-20170325-9816-edited.jpg)");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+    background-position: 50% 50%;
+    margin: 0px;
+    padding: 0px;
+}
+.overlay-news {
+    position: absolute;
+    height: 50vh;
+    width:  100vw;
+    top: 0;
+    left:0;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.overlay-news h1 {
+    font-size: 4.8vw;
+    font-weight: bold;
+}
+/*our work page*/
+.intro-work {
+    background-image: url("https://www.cnps.org/wp-content/uploads/2017/07/edu-field7-dsc0463-1800.jpg)");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 70vh;
+    width: 100vw;
+    background-position: 50% 50%;
+    margin: 0px;
+    padding: 0px;
+}
+.overlay-work {
+    position: absolute;
+    height: 70vh;
+    width:  100vw;
+    top: 0;
+    left:0;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.overlay-content-work h1 {
+    font-size: 6vw;
+    font-weight: bold;
+}
+
+/*about page*/
+.intro-about {
+    background-image: url("https://www.cnps.org/wp-content/uploads/2017/09/anacapa-island-keeler-wolf.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+    background-position: 50% 50%;
+    margin: 0px;
+    padding: 0px;
+}
+.overlay-about {
+    position: absolute;
+    height: 80vh;
+    width:  100vw;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.overlay-about h1 {
+    font-size: 4.8vw;
+    font-weight: bold;
+}
+
+/*tools page*/
+.intro-tools {
+    background-image: url("https://www.cnps.org/wp-content/uploads/2018/01/magney-20170224-img_8474.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+    background-position: 50% 50%;
+    margin: 0px;
+    padding: 0px;
+}
+.overlay-tools {
+    position: absolute;
+    height: 80vh;
+    width:  100vw;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.overlay-tools h1 {
+    font-size: 4.8vw;
+    font-weight: bold;
+}
