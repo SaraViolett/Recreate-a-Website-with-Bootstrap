@@ -4,13 +4,21 @@
 
 **Part One Requirements:**
 1. Add a navigation Bar with 3 Links.
+
 -Bootstrap was used to build a double navigation bar to replicate the CNPS website.
+
 2. Build a homepage that matches the feel of the website you’re emulating. Include headings, images, and a hero section to introduce the site.
+
 -Bootstrap navbar, cards, carousel, and positioning were used to build the homepage. Image links from the CNPS site were used to match the look of the site as well as css styles file. 
+
 3. Add a form for user input.
+
 -Two forms were used, one as a Bootstrap modal when the "Join" button is selected on the navigation bar and the homepage hero image. The other form is on the "Get Involved" page.
+
 4. Include a table to display relevant information.
+
 -The table is on the "Our Work" page, it displays some of the work of CNPS.
+
 5. Choose any three Bootstrap components that suit your website.
 
 **Bootstrap components used:**
