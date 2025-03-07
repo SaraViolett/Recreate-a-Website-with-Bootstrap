@@ -1,6 +1,6 @@
 **Title:** Frameworks & Intro to JS | Recreate Your Favorite Website Using Bootstrap and JavaScript
 
-**Description:** Part one of this assignment is to recreate a website using Bootstrap. I choose to replicate the California Native Plant Society (CNPS) website (https://www.cnps.org/). In the second part of the assignment we are tasked with writing JavaScript functions to simulate features we'd like to implement in the future without integrating them into the site.
+**Description:** Part one of this assignment is to recreate a website using Bootstrap. I picked California Native Plant Society (CNPS) website (https://www.cnps.org/) to replicate for this project. In the second part of the assignment we are tasked with writing JavaScript functions to simulate features we'd like to implement in the future without integrating them into the site.
 
 **Part One Requirements:**
 1. Add a navigation Bar with 3 Links.
